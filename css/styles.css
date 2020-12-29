@@ -411,6 +411,7 @@ footer {
 }
 .footer-flex {
   display: flex;
+  align-items: baseline;
 }
 .logo-address {
   margin-right: 70px;
@@ -439,9 +440,6 @@ footer {
 }
 .address-footer-contacts {
   color: var(--contacts-footer-color);
-}
-.join {
-  margin-top: 12px;
 }
 .join-title {
   margin-top: 0;
