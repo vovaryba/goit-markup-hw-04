@@ -14,21 +14,21 @@
 	</head>
 	<body>
 		<header class="border-bottom">
-			<div class="container main-nav">
+			<div class="container header-container">
 				<nav>
-					<a href="./index.html" class="nav-logo notunderline">
-						<p class="logo"><span class="logo-first-part">Web</span>Studio</p>
+					<a class="nav-logo notunderline" href="./index.html">
+						<span class="logo-first-part">Web</span>Studio
 					</a>
 					<ul class="site-nav nolist">
-						<li class="item"><a href="./index.html" class="link notunderline">Студия</a></li>
-						<li class="item"><a href="./portfolio.html" class="link notunderline current">Портфолио</a></li>
-						<li class="item"><a href="" class="link notunderline">Контакты</a></li>
+						<li class="item"><a class="link notunderline" href="./index.html">Студия</a></li>
+						<li class="item"><a class="link notunderline current" href="./portfolio.html">Портфолио</a></li>
+						<li class="item"><a class="link notunderline" href="">Контакты</a></li>
 					</ul>
 				</nav>
-				<address class="address">
+				<address class="contacts">
 					<ul class="site-contacts nolist">
 						<li class="item">
-							<a href="mailto:info@devstudio.com" class="contacts notunderline">
+							<a class="link notunderline" href="mailto:info@devstudio.com">
 								<svg class="item-icon-envelope">
 									<use href="./images/sprite.svg#icon-envelope"></use>
 								</svg>
@@ -36,7 +36,7 @@
 							</a>
 						</li>
 						<li class="item">
-							<a href="tel:+380961111111" class="contacts notunderline">
+							<a class="link notunderline" href="tel:+380961111111">
 								<svg class="item-icon-smartphone">
 									<use href="./images/sprite.svg#icon-smartphone"></use>
 								</svg>
@@ -48,93 +48,94 @@
 			</div>
 		</header>
 		<main>
+			<!--? Проекты -->
 			<section class="projects">
 				<div class="container">
 					<h2 class="hidden">Наши проекты</h2>
 					<ul class="filter nolist">
-						<li><button type="button" class="filter-button">Все</button></li>
-						<li><button type="button" class="filter-button">Веб-сайты</button></li>
-						<li><button type="button" class="filter-button">Приложения</button></li>
-						<li><button type="button" class="filter-button">Дизайн</button></li>
-						<li><button type="button" class="filter-button">Маркетинг</button></li>
+						<li><button class="filter-button" type="button">Все</button></li>
+						<li><button class="filter-button" type="button">Веб-сайты</button></li>
+						<li><button class="filter-button" type="button">Приложения</button></li>
+						<li><button class="filter-button" type="button">Дизайн</button></li>
+						<li><button class="filter-button" type="button">Маркетинг</button></li>
 					</ul>
 					<ul class="projects-list nolist">
 						<li class="item">
-							<a href="" class="notunderline">
-								<img src="./images/tehnokryak.jpg" alt="Включенный ноутбук с открытым проектом в браузере" width="370" class="item-img">
-								<div class="description">
+							<a class="link notunderline" href="">
+								<img class="item-img" src="./images/tehnokryak.jpg" alt="Включенный ноутбук с открытым проектом в браузере" width="370">
+								<div class="projects-list-description">
 									<h2 class="title">Технокряк</h2>
 									<p class="text">Веб-сайт</p>
 								</div>
 							</a>
 						</li>
 						<li class="item">
-							<a href="" class="notunderline">
-								<img src="./images/poster-novsgs.jpg" alt="Баскетболист в белой форме блокирует мяч баскетболиста в фиолетовой форме" width="370" class="item-img">
-								<div class="description">
+							<a class="link notunderline" href="">
+								<img class="item-img" src="./images/poster-novsgs.jpg" alt="Баскетболист в белой форме блокирует мяч баскетболиста в фиолетовой форме" width="370">
+								<div class="projects-list-description">
 									<h2 class="title">Постер New Orlean vs Golden Star</h2>
 									<p class="text">Дизайн</p>
 								</div>
 							</a>
 						</li>
 						<li class="item">
-							<a href="" class="notunderline">
-								<img src="./images/seafood.jpg" alt="Логотип ресторана" width="370" class="item-img">
-								<div class="description">
+							<a class="link notunderline" href="">
+								<img class="item-img" src="./images/seafood.jpg" alt="Логотип ресторана" width="370">
+								<div class="projects-list-description">
 									<h2 class="title">Ресторан Seafood</h2>
 									<p class="text">Приложение</p>
 								</div>
 							</a>
 						</li>
 						<li class="item">
-							<a href="" class="notunderline">
-								<img src="./images/prime.jpg" alt="Полноразмерные блютуз наушники" width="370" class="item-img">
-								<div class="description">
+							<a class="link notunderline" href="">
+								<img class="item-img" src="./images/prime.jpg" alt="Полноразмерные блютуз наушники" width="370">
+								<div class="projects-list-description">
 									<h2 class="title">Проект Prime</h2>
 									<p class="text">Маркетинг</p>
 								</div>
 							</a>
 						</li>
 						<li class="item">
-							<a href="" class="notunderline">
-								<img src="./images/boxes.jpg" alt="Белая и коричневая коробки с логотипами" width="370" class="item-img">
-								<div class="description">
+							<a class="link notunderline" href="">
+								<img class="item-img" src="./images/boxes.jpg" alt="Белая и коричневая коробки с логотипами" width="370">
+								<div class="projects-list-description">
 									<h2 class="title">Проект Boxes</h2>
 									<p class="text">Приложение</p>
 								</div>
 							</a>
 						</li>
 						<li class="item">
-							<a href="" class="notunderline">
-								<img src="./images/insp-has-no-b.jpg" alt="Включенный аймак с открытым проектом" width="370" class="item-img">
-								<div class="description">
+							<a class="link notunderline" href="">
+								<img class="item-img" src="./images/insp-has-no-b.jpg" alt="Включенный аймак с открытым проектом" width="370">
+								<div class="projects-list-description">
 									<h2 class="title">Inspiration has no Borders</h2>
 									<p class="text">Веб-сайт</p>
 								</div>
 							</a>
 						</li>
 						<li class="item">
-							<a href="" class="notunderline">
-								<img src="./images/lim-ed.jpg" alt="Открытый журнал с фотографиями девушек и текстом" width="370" class="item-img">
-								<div class="description">
+							<a class="link notunderline" href="">
+								<img class="item-img" src="./images/lim-ed.jpg" alt="Открытый журнал с фотографиями девушек и текстом" width="370">
+								<div class="projects-list-description">
 									<h2 class="title">Издание Limited Edition</h2>
 									<p class="text">Дизайн</p>
 								</div>
 							</a>
 						</li>
 						<li class="item">
-							<a href="" class="notunderline">
-								<img src="./images/lab.jpg" alt="Бирка с надписью LAB EL TAG" width="370" class="item-img">
-								<div class="description">
+							<a class="link notunderline" href="">
+								<img class="item-img" src="./images/lab.jpg" alt="Бирка с надписью LAB EL TAG" width="370">
+								<div class="projects-list-description">
 									<h2 class="title">Проект LAB</h2>
 									<p class="text">Маркетинг</p>
 								</div>
 							</a>
 						</li>
 						<li class="item">
-							<a href="" class="notunderline">
-								<img src="./images/grow-bus.jpg" alt="Мужские руки печатают на ноутбуке, а на экране отображается проект" width="370" class="item-img">
-								<div class="description">
+							<a class="link notunderline" href="">
+								<img class="item-img" src="./images/grow-bus.jpg" alt="Мужские руки печатают на ноутбуке, а на экране отображается проект" width="370">
+								<div class="projects-list-description">
 									<h2 class="title">Growing Business</h2>
 									<p class="text">Приложение</p>
 								</div>
@@ -147,43 +148,52 @@
 		<footer>
 			<div class="container footer-flex">
 				<div class="logo-address">
-					<a href="./index.html" class="notunderline">
-						<p class="logo-footer"><span class="logo-first-part">Web</span>Studio</p>
-					</a>
-					<address class="address">
-						<ul class="address-footerlist nolist">
-							<li>
-								<p class="address-footer-str">г. Киев, пр-т Леси Украинки, 26</p>
+					<a class="logo-footer notunderline " href="./index.html"><span class="logo-first-part">Web</span>Studio</a>
+					<address class="address-contacts">
+						<ul class="address-contacts-list nolist">
+							<li class="item">
+								<p class="address">г. Киев, пр-т Леси Украинки, 26</p>
 							</li>
-							<li><a href="mailto:info@devstudio.com" class="address-footer-contacts notunderline">info@devstudio.com</a>
+							<li class="item">
+								<a class="contacts notunderline" href="mailto:info@devstudio.com">info@devstudio.com</a>
 							</li>
-							<li><a href="tel:+380961111111" class="address-footer-contacts notunderline">+38 096 111 11 11</a></li>
+							<li class="item">
+								<a class="contacts notunderline" href="tel:+380961111111">+38 096 111 11 11</a>
+							</li>
 						</ul>
 					</address>
 				</div>
 				<div class="join">
 					<p class="join-title upcase">Присоединяйтесь</p>
-					<ul class="foot-social-links nolist">
-						<li><a href="" class="link notunderline">
+					<ul class="join-social-links nolist">
+						<li class="item">
+							<a class="link notunderline" href="">
 								<svg class="link-icon">
 									<use href="./images/sprite.svg#icon-inst"></use>
 								</svg>
-							</a></li>
-						<li><a href="" class="link notunderline">
+							</a>
+						</li>
+						<li class="item">
+							<a class="link notunderline" href="">
 								<svg class="link-icon">
 									<use href="./images/sprite.svg#icon-twit"></use>
 								</svg>
-							</a></li>
-						<li><a href="" class="link notunderline">
+							</a>
+						</li>
+						<li class="item">
+							<a class="link notunderline" href="">
 								<svg class="link-icon">
 									<use href="./images/sprite.svg#icon-face"></use>
 								</svg>
-							</a></li>
-						<li><a href="" class="link notunderline">
+							</a>
+						</li>
+						<li class="item">
+							<a class="link notunderline" href="">
 								<svg class="link-icon">
 									<use href="./images/sprite.svg#icon-link"></use>
 								</svg>
-							</a></li>
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
